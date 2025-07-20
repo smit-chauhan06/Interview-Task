@@ -8,6 +8,7 @@ import FileExplorer from "./Pages/Task03-FileExplorer";
 import Pagination from "./Pages/Task04-Pagination";
 import ToDoList from "./Pages/Task05-ToDoList";
 import DeepClone from "./Pages/Task06-DeepCloneObject";
+import UseReudcerHook from "./Pages/Task07-UseReducerHook";
 
 const TanStack = lazy(() => import("./Pages/TanStack"));
 
@@ -44,7 +45,8 @@ function App() {
         {/* <FileExplorer /> */}
         {/* <ToDoList /> */}
         {/* <Pagination /> */}
-        <DeepClone />
+        {/* <DeepClone /> */}
+        <UseReudcerHook />
       </Suspense>
     </BrowserRouter>
   );
